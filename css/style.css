@@ -1,0 +1,56 @@
+/* Estilo Inicial */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100px 100vh 100px;
+    grid-template-areas: 
+    "header" 
+    "main" 
+    "footer";
+}
+
+.main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 0px 200px;
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+
+
